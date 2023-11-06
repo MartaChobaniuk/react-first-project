@@ -1,7 +1,7 @@
 import React from 'react';
 import './App.css';
 import Navbar from './components/Navbar/Navbar';
-import { Route, Routes } from 'react-router-dom';
+import { HashRouter, Route, Routes } from 'react-router-dom';
 import UsersContainer from './components/Users/UsersContainer';
 import HeaderContainer from './components/Header/HeaderContainer';
 import Login from './components/Login/Login';
@@ -11,7 +11,6 @@ import { useLocation, useNavigate, useParams } from 'react-router-dom';
 import { compose } from 'redux';
 import { initializeApp } from './redux/app.reducer';
 import Preloader from './components/common/Preloader/Preloader';
-import { BrowserRouter } from 'react-router-dom';
 import { Provider } from 'react-redux';
 import store from './redux/redux.store';
 import { withSuspense } from './HOC/withSuspense';
@@ -74,11 +73,11 @@ let AppContainer = compose(
   connect(mapStateToProps, {initializeApp})) (App);
 
 const MainApp = (props) => {
-  return <BrowserRouter basename={process.env.PUBLIC_URL}>
+  return <HashRouter basename={process.env.PUBLIC_URL}>
     <Provider store={store}>
       <AppContainer />
     </Provider>
-  </BrowserRouter>
+  </HashRouter>
 }
 
 export default MainApp;
