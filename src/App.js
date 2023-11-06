@@ -73,7 +73,7 @@ let AppContainer = compose(
   connect(mapStateToProps, {initializeApp})) (App);
 
 const MainApp = (props) => {
-  return <HashRouter basename={process.env.PUBLIC_URL}>
+  return <HashRouter basename={process.env.PUBLIC_URL} hashType={'slash'}>
     <Provider store={store}>
       <AppContainer />
     </Provider>
