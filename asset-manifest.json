@@ -1,26 +1,26 @@
 {
   "files": {
     "main.css": "/react-first-project/static/css/main.f2743f75.css",
-    "main.js": "/react-first-project/static/js/main.6d2aca2d.js",
+    "main.js": "/react-first-project/static/js/main.e2a5cd5b.js",
     "static/css/553.ab06a003.chunk.css": "/react-first-project/static/css/553.ab06a003.chunk.css",
     "static/js/553.1a96b6af.chunk.js": "/react-first-project/static/js/553.1a96b6af.chunk.js",
-    "static/css/638.ccedd931.chunk.css": "/react-first-project/static/css/638.ccedd931.chunk.css",
-    "static/js/638.e5f0e9d8.chunk.js": "/react-first-project/static/js/638.e5f0e9d8.chunk.js",
+    "static/css/638.6b83afa5.chunk.css": "/react-first-project/static/css/638.6b83afa5.chunk.css",
+    "static/js/638.bda179d0.chunk.js": "/react-first-project/static/js/638.bda179d0.chunk.js",
     "static/js/651.ee05e2e4.chunk.js": "/react-first-project/static/js/651.ee05e2e4.chunk.js",
     "static/media/userPhoto.webp": "/react-first-project/static/media/userPhoto.f41598b5debaf1500ecb.webp",
     "static/media/logo_img.jpg": "/react-first-project/static/media/logo_img.8dab2c4b471614ca6241.jpg",
     "static/media/loading_img.svg": "/react-first-project/static/media/loading_img.a8be6c6b1a1828a3bf8e0bbfeb42e274.svg",
     "index.html": "/react-first-project/index.html",
     "main.f2743f75.css.map": "/react-first-project/static/css/main.f2743f75.css.map",
-    "main.6d2aca2d.js.map": "/react-first-project/static/js/main.6d2aca2d.js.map",
+    "main.e2a5cd5b.js.map": "/react-first-project/static/js/main.e2a5cd5b.js.map",
     "553.ab06a003.chunk.css.map": "/react-first-project/static/css/553.ab06a003.chunk.css.map",
     "553.1a96b6af.chunk.js.map": "/react-first-project/static/js/553.1a96b6af.chunk.js.map",
-    "638.ccedd931.chunk.css.map": "/react-first-project/static/css/638.ccedd931.chunk.css.map",
-    "638.e5f0e9d8.chunk.js.map": "/react-first-project/static/js/638.e5f0e9d8.chunk.js.map",
+    "638.6b83afa5.chunk.css.map": "/react-first-project/static/css/638.6b83afa5.chunk.css.map",
+    "638.bda179d0.chunk.js.map": "/react-first-project/static/js/638.bda179d0.chunk.js.map",
     "651.ee05e2e4.chunk.js.map": "/react-first-project/static/js/651.ee05e2e4.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f2743f75.css",
-    "static/js/main.6d2aca2d.js"
+    "static/js/main.e2a5cd5b.js"
   ]
 }
